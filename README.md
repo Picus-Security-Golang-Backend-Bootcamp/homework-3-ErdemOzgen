@@ -25,29 +25,29 @@ homework-3-ErdemOzgen
 ```bash
 homework-3-ErdemOzgen help
 ```
-[img](img/1.png)
+![img](img/1.png)
 
 
 * Use this for list all books inserted at database
 ```bash
 homework-3-ErdemOzgen list
 ```
-[img](img/2.png)
+![img](img/2.png)
 
 * Use this for Buy books by ID and amount of books
 ```bash
 homework-3-ErdemOzgen buy 1 10
 ```
-[img](img/3.png)
+![img](img/3.png)
 
 * Use this for Delete book from Database
 ```bash
 homework-3-ErdemOzgen delete 1
 ```
-[img](img/4.png)
+![img](img/4.png)
 
 * Use this for search book by names
 ```bash
 homework-3-ErdemOzgen search Book4
 ```
-[img](img/5.png)
+![img](img/5.png)
