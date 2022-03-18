@@ -28,8 +28,8 @@ Available Commands:
   delete	For Delete books with id takes one argument id
   help		Print this help menu
   list		List all books in the dataset
-  search	Search for books with author,ISBN,ID takes one argument keyword
-  banner 	Print the ASCII banner that shows the name of the author,version,date and the command line
+  search	Search for books with name takes one argument keyword
+  banner 	Print the ASCII banner that shows the name of the author and the command line
 
 Alternative Commands:
   -h, --help      
