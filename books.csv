@@ -1,0 +1,212 @@
+Name,Author,AuthorDescription,Price,StockAmount
+Fundamentals of Wavelets,"Goswami, Jaideva",signal_processing,228,228
+Data Smart,"Foreman, John",data_science,235,229
+God Created the Integers,"Hawking, Stephen",mathematics,197,230
+Superfreakonomics,"Dubner, Stephen",economics,179,231
+Orientalism,"Said, Edward",history,197,232
+"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",data_science,230,233
+Integration of the Indian States,"Menon, V P",history,217,234
+"Drunkard's Walk, The","Mlodinow, Leonard",science,197,235
+Image Processing & Mathematical Morphology,"Shih, Frank",signal_processing,241,236
+How to Think Like Sherlock Holmes,"Konnikova, Maria",psychology,240,237
+Data Scientists at Work,Sebastian Gutierrez,data_science,230,238
+Slaughterhouse Five,"Vonnegut, Kurt",fiction,198,239
+Birth of a Theorem,"Villani, Cedric",mathematics,234,240
+Structure & Interpretation of Computer Programs,"Sussman, Gerald",computer_science,240,241
+"Age of Wrath, The","Eraly, Abraham",history,238,242
+"Trial, The","Kafka, Frank",fiction,198,243
+Statistical Decision Theory',"Pratt, John",data_science,236,244
+Data Mining Handbook,"Nisbet, Robert",data_science,242,245
+"New Machiavelli, The","Wells, H. G.",fiction,180,246
+Physics & Philosophy,"Heisenberg, Werner",science,197,247
+Making Software,"Oram, Andy",computer_science,232,248
+"Analysis, Vol I","Tao, Terence",mathematics,248,249
+Machine Learning for Hackers,"Conway, Drew",data_science,233,250
+"Signal and the Noise, The","Silver, Nate",data_science,233,251
+Python for Data Analysis,"McKinney, Wes",data_science,233,252
+Introduction to Algorithms,"Cormen, Thomas",computer_science,234,253
+"Beautiful and the Damned, The","Deb, Siddhartha",nonfiction,198,254
+"Outsider, The","Camus, Albert",fiction,198,255
+"Complete Sherlock Holmes, The - Vol I","Doyle, Arthur Conan",fiction,176,256
+"Complete Sherlock Holmes, The - Vol II","Doyle, Arthur Conan",fiction,176,257
+"Wealth of Nations, The","Smith, Adam",economics,175,258
+"Pillars of the Earth, The","Follett, Ken",fiction,176,259
+Mein Kampf,"Hitler, Adolf",nonfiction,212,260
+"Tao of Physics, The","Capra, Fritjof",science,179,261
+Surely You're Joking Mr Feynman,"Feynman, Richard",science,198,262
+"Farewell to Arms, A","Hemingway, Ernest",fiction,179,263
+"Veteran, The","Forsyth, Frederick",fiction,177,264
+False Impressions,"Archer, Jeffery",fiction,177,265
+"Last Lecture, The","Pausch, Randy",nonfiction,197,266
+Return of the Primitive,"Rand, Ayn",philosophy,202,267
+Jurassic Park,"Crichton, Michael",fiction,174,268
+"Russian Journal, A","Steinbeck, John",nonfiction,196,269
+Tales of Mystery and Imagination,"Poe, Edgar Allen",fiction,172,270
+Freakonomics,"Dubner, Stephen",economics,197,271
+"Hidden Connections, The","Capra, Fritjof",science,197,272
+"Story of Philosophy, The","Durant, Will",philosophy,170,273
+Asami Asami,"Deshpande, P L",fiction,205,274
+Journal of a Novel,"Steinbeck, John",fiction,196,275
+Once There Was a War,"Steinbeck, John",nonfiction,196,276
+"Moon is Down, The","Steinbeck, John",fiction,196,277
+"Brethren, The","Grisham, John",fiction,174,278
+In a Free State,"Naipaul, V. S.",fiction,196,279
+Catch 22,"Heller, Joseph",fiction,178,280
+"Complete Mastermind, The",BBC,nonfiction,178,281
+Dylan on Dylan,"Dylan, Bob",nonfiction,197,282
+Soft Computing & Intelligent Systems,"Gupta, Madan",data_science,242,283
+Textbook of Economic Theory,"Stonier, Alfred",economics,242,284
+Econometric Analysis,"Greene, W. H.",economics,242,285
+Learning OpenCV,"Bradsky, Gary",data_science,232,286
+Data Structures Using C & C++,"Tanenbaum, Andrew",computer_science,235,287
+"Computer Vision, A Modern Approach","Forsyth, David",data_science,255,288
+Principles of Communication Systems,"Taub, Schilling",computer_science,240,289
+Let Us C,"Kanetkar, Yashwant",computer_science,213,290
+"Amulet of Samarkand, The","Stroud, Jonathan",fiction,179,291
+Crime and Punishment,"Dostoevsky, Fyodor",fiction,180,292
+Angels & Demons,"Brown, Dan",fiction,178,293
+"Argumentative Indian, The","Sen, Amartya",nonfiction,209,294
+Sea of Poppies,"Ghosh, Amitav",fiction,197,295
+"Idea of Justice, The","Sen, Amartya",nonfiction,212,296
+"Raisin in the Sun, A","Hansberry, Lorraine",fiction,175,297
+All the President's Men,"Woodward, Bob",history,177,298
+"Prisoner of Birth, A","Archer, Jeffery",fiction,176,299
+Scoop!,"Nayar, Kuldip",history,216,300
+Ahe Manohar Tari,"Deshpande, Sunita",nonfiction,213,301
+"Last Mughal, The","Dalrymple, William",history,199,302
+"Social Choice & Welfare, Vol 39 No. 1",Various,economics,235,303
+Radiowaril Bhashane & Shrutika,"Deshpande, P L",nonfiction,213,304
+Gun Gayin Awadi,"Deshpande, P L",nonfiction,212,305
+Aghal Paghal,"Deshpande, P L",nonfiction,212,306
+Maqta-e-Ghalib,"Garg, Sanjay",fiction,221,307
+Beyond Degrees,,nonfiction,222,308
+Manasa,"Kale, V P",nonfiction,213,309
+India from Midnight to Milennium,"Tharoor, Shashi",history,198,310
+"World's Greatest Trials, The",,history,210,311
+"Great Indian Novel, The","Tharoor, Shashi",fiction,198,312
+O Jerusalem!,"Lapierre, Dominique",history,217,313
+"City of Joy, The","Lapierre, Dominique",fiction,177,314
+Freedom at Midnight,"Lapierre, Dominique",history,167,315
+"Winter of Our Discontent, The","Steinbeck, John",fiction,196,316
+On Education,"Russell, Bertrand",philosophy,203,317
+Free Will,"Harris, Sam",philosophy,203,318
+Bookless in Baghdad,"Tharoor, Shashi",nonfiction,206,319
+"Case of the Lame Canary, The","Gardner, Earle Stanley",fiction,179,320
+"Theory of Everything, The","Hawking, Stephen",science,217,321
+New Markets & Other Essays,"Drucker, Peter",economics,176,322
+Electric Universe,"Bodanis, David",science,201,323
+"Hunchback of Notre Dame, The","Hugo, Victor",fiction,175,324
+Burning Bright,"Steinbeck, John",fiction,175,325
+"Age of Discontuinity, The","Drucker, Peter",economics,178,326
+Doctor in the Nude,"Gordon, Richard",fiction,179,327
+Down and Out in Paris & London,"Orwell, George",nonfiction,179,328
+Identity & Violence,"Sen, Amartya",philosophy,219,329
+Beyond the Three Seas,"Dalrymple, William",history,197,330
+"World's Greatest Short Stories, The",,fiction,217,331
+Talking Straight,"Iacoca, Lee",nonfiction,175,332
+"Maugham's Collected Short Stories, Vol 3","Maugham, William S",fiction,171,333
+"Phantom of Manhattan, The","Forsyth, Frederick",fiction,180,334
+Ashenden of The British Agent,"Maugham, William S",fiction,160,335
+Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",philosophy,172,336
+"Great War for Civilization, The","Fisk, Robert",history,197,337
+We the Living,"Rand, Ayn",fiction,178,338
+"Artist and the Mathematician, The","Aczel, Amir",science,186,339
+History of Western Philosophy,"Russell, Bertrand",philosophy,213,340
+Selected Short Stories,,fiction,215,341
+Rationality & Freedom,"Sen, Amartya",economics,213,342
+Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",history,228,343
+Uncommon Wisdom,"Capra, Fritjof",nonfiction,197,344
+One,"Bach, Richard",nonfiction,172,345
+Karl Marx Biography,,nonfiction,162,346
+To Sir With Love,Braithwaite,fiction,197,347
+Half A Life,"Naipaul, V S",fiction,196,348
+"Discovery of India, The","Nehru, Jawaharlal",history,230,349
+Apulki,"Deshpande, P L",nonfiction,211,350
+Unpopular Essays,"Russell, Bertrand",philosophy,198,351
+"Deceiver, The","Forsyth, Frederick",fiction,178,352
+Veil: Secret Wars of the CIA,"Woodward, Bob",history,171,353
+Char Shabda,"Deshpande, P L",nonfiction,214,354
+Rosy is My Relative,"Durrell, Gerald",fiction,176,355
+"Moon and Sixpence, The","Maugham, William S",fiction,180,356
+Political Philosophers,,philosophy,162,357
+"Short History of the World, A","Wells, H G",history,197,358
+"Trembling of a Leaf, The","Maugham, William S",fiction,205,359
+Doctor on the Brain,"Gordon, Richard",fiction,204,360
+Simpsons & Their Mathematical Secrets,"Singh, Simon",science,233,361
+Pattern Classification,"Duda, Hart",data_science,241,362
+From Beirut to Jerusalem,"Friedman, Thomas",history,202,363
+"Code Book, The","Singh, Simon",science,197,364
+"Age of the Warrior, The","Fisk, Robert",history,197,365
+Final Crisis,,comic,257,366
+"Killing Joke, The",,comic,283,367
+Flashpoint,,comic,265,368
+Batman Earth One,,comic,265,369
+Crisis on Infinite Earths,,comic,258,370
+"Numbers Behind Numb3rs, The","Devlin, Keith",science,202,371
+Superman Earth One - 1,,comic,259,372
+Superman Earth One - 2,,comic,258,373
+Justice League: Throne of Atlantis,,comic,258,374
+Justice League: The Villain's Journey,,comic,258,375
+"Death of Superman, The",,comic,258,376
+History of the DC Universe,,comic,258,377
+Batman: The Long Halloween,,comic,258,378
+"Life in Letters, A","Steinbeck, John",nonfiction,196,379
+"Information, The","Gleick, James",science,233,380
+"Journal of Economics, vol 106 No 3",,economics,235,381
+Elements of Information Theory,"Thomas, Joy",data_science,229,382
+Power Electronics - Rashid,"Rashid, Muhammad",computer_science,235,383
+Power Electronics - Mohan,"Mohan, Ned",computer_science,237,384
+Neural Networks,"Haykin, Simon",data_science,240,385
+"Grapes of Wrath, The","Steinbeck, John",fiction,196,386
+Vyakti ani Valli,"Deshpande, P L",nonfiction,211,387
+Statistical Learning Theory,"Vapnik, Vladimir",data_science,228,388
+Empire of the Mughal - The Tainted Throne,"Rutherford, Alex",history,180,389
+Empire of the Mughal - Brothers at War,"Rutherford, Alex",history,180,390
+Empire of the Mughal - Ruler of the World,"Rutherford, Alex",history,180,391
+Empire of the Mughal - The Serpent's Tooth,"Rutherford, Alex",history,180,392
+Empire of the Mughal - Raiders from the North,"Rutherford, Alex",history,180,393
+Mossad,"Baz-Zohar, Michael",history,236,394
+Jim Corbett Omnibus,"Corbett, Jim",nonfiction,223,395
+20000 Leagues Under the Sea,"Verne, Jules",fiction,190,396
+Batatyachi Chal,Deshpande P L,fiction,200,397
+Hafasavnuk,Deshpande P L,fiction,211,398
+Urlasurla,Deshpande P L,fiction,211,399
+Pointers in C,"Kanetkar, Yashwant",computer_science,213,400
+"Cathedral and the Bazaar, The","Raymond, Eric",computer_science,217,401
+Design with OpAmps,"Franco, Sergio",computer_science,240,402
+Think Complexity,"Downey, Allen",data_science,230,403
+"Devil's Advocate, The","West, Morris",fiction,178,404
+Ayn Rand Answers,"Rand, Ayn",philosophy,203,405
+Philosophy: Who Needs It,"Rand, Ayn",philosophy,171,406
+"World's Great Thinkers, The",,philosophy,189,407
+Data Analysis with Open Source Tools,"Janert, Phillip",data_science,230,408
+Broca's Brain,"Sagan, Carl",science,174,409
+Men of Mathematics,"Bell, E T",mathematics,217,410
+Oxford book of Modern Science Writing,"Dawkins, Richard",science,240,411
+"Justice, Judiciary and Democracy","Ranjan, Sudhanshu",philosophy,224,412
+"Arthashastra, The",Kautiyla,philosophy,214,413
+We the People,Palkhivala,philosophy,216,414
+We the Nation,Palkhivala,philosophy,216,415
+"Courtroom Genius, The",Sorabjee,nonfiction,217,416
+Dongri to Dubai,"Zaidi, Hussain",nonfiction,216,417
+"History of England, Foundation","Ackroyd, Peter",history,197,418
+City of Djinns,"Dalrymple, William",history,198,419
+India's Legal System,Nariman,nonfiction,177,420
+More Tears to Cry,"Sassoon, Jean",fiction,235,421
+"Ropemaker, The","Dickinson, Peter",fiction,196,422
+Angels & Demons,"Brown, Dan",fiction,170,423
+"Judge, The",,fiction,170,424
+"Attorney, The",,fiction,170,425
+"Prince, The",Machiavelli,philosophy,173,426
+Eyeless in Gaza,"Huxley, Aldous",fiction,180,427
+Tales of Beedle the Bard,"Rowling, J K",fiction,184,428
+Girl with the Dragon Tattoo,"Larsson, Steig",fiction,179,429
+Girl who kicked the Hornet's Nest,"Larsson, Steig",fiction,179,430
+Girl who played with Fire,"Larsson, Steig",fiction,179,431
+Batman Handbook,,comic,270,432
+Murphy's Law,,nonfiction,178,433
+Structure and Randomness,"Tao, Terence",mathematics,252,434
+Image Processing with MATLAB,"Eddins, Steve",signal_processing,241,435
+Animal Farm,"Orwell, George",fiction,180,436
+"Idiot, The","Dostoevsky, Fyodor",fiction,197,437
+"Christmas Carol, A","Dickens, Charles",fiction,196,438
