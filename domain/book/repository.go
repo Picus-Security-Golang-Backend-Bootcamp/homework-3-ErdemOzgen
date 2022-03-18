@@ -79,6 +79,13 @@ func (r *BookRepository) InsertSampleData() {
 	}
 
 }
+
+func (r *BookRepository) InsertSampleDataFromSlices(s []Book) {
+	for _, b := range s {
+		r.db.Create(&b)
+	}
+}
+
 func (r *BookRepository) UpdateBook(b Book, id int) error {
 	//r.db.First(&book, id)
 	var book Book
@@ -170,4 +177,8 @@ func (r *BookRepository) DeleteBookByID2(id int) error {
 		return result.Error
 	}
 	return nil
+}
+
+func (r *BookRepository) InsertBook(book *Book) {
+	r.db.Create(&book)
 }

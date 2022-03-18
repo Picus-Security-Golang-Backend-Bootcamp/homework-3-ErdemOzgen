@@ -79,10 +79,10 @@ Radiowaril Bhashane & Shrutika,"Deshpande, P L",nonfiction,213,304
 Gun Gayin Awadi,"Deshpande, P L",nonfiction,212,305
 Aghal Paghal,"Deshpande, P L",nonfiction,212,306
 Maqta-e-Ghalib,"Garg, Sanjay",fiction,221,307
-Beyond Degrees,,nonfiction,222,308
+Beyond Degrees,"Garg, Sanjay",nonfiction,222,308
 Manasa,"Kale, V P",nonfiction,213,309
 India from Midnight to Milennium,"Tharoor, Shashi",history,198,310
-"World's Greatest Trials, The",,history,210,311
+"World's Greatest Trials, The","Garg, Sanjay",history,210,311
 "Great Indian Novel, The","Tharoor, Shashi",fiction,198,312
 O Jerusalem!,"Lapierre, Dominique",history,217,313
 "City of Joy, The","Lapierre, Dominique",fiction,177,314
@@ -102,7 +102,7 @@ Doctor in the Nude,"Gordon, Richard",fiction,179,327
 Down and Out in Paris & London,"Orwell, George",nonfiction,179,328
 Identity & Violence,"Sen, Amartya",philosophy,219,329
 Beyond the Three Seas,"Dalrymple, William",history,197,330
-"World's Greatest Short Stories, The",,fiction,217,331
+"World's Greatest Short Stories, The","Garg, Sanjay",fiction,217,331
 Talking Straight,"Iacoca, Lee",nonfiction,175,332
 "Maugham's Collected Short Stories, Vol 3","Maugham, William S",fiction,171,333
 "Phantom of Manhattan, The","Forsyth, Frederick",fiction,180,334
@@ -112,12 +112,12 @@ Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",philosophy,172,336
 We the Living,"Rand, Ayn",fiction,178,338
 "Artist and the Mathematician, The","Aczel, Amir",science,186,339
 History of Western Philosophy,"Russell, Bertrand",philosophy,213,340
-Selected Short Stories,,fiction,215,341
+Selected Short Stories,"Garg, Sanjay",fiction,215,341
 Rationality & Freedom,"Sen, Amartya",economics,213,342
 Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",history,228,343
 Uncommon Wisdom,"Capra, Fritjof",nonfiction,197,344
 One,"Bach, Richard",nonfiction,172,345
-Karl Marx Biography,,nonfiction,162,346
+Karl Marx Biography,"Garg, Sanjay",nonfiction,162,346
 To Sir With Love,Braithwaite,fiction,197,347
 Half A Life,"Naipaul, V S",fiction,196,348
 "Discovery of India, The","Nehru, Jawaharlal",history,230,349
@@ -128,7 +128,7 @@ Veil: Secret Wars of the CIA,"Woodward, Bob",history,171,353
 Char Shabda,"Deshpande, P L",nonfiction,214,354
 Rosy is My Relative,"Durrell, Gerald",fiction,176,355
 "Moon and Sixpence, The","Maugham, William S",fiction,180,356
-Political Philosophers,,philosophy,162,357
+Political Philosophers,"Garg, Sanjay",philosophy,162,357
 "Short History of the World, A","Wells, H G",history,197,358
 "Trembling of a Leaf, The","Maugham, William S",fiction,205,359
 Doctor on the Brain,"Gordon, Richard",fiction,204,360
@@ -137,22 +137,22 @@ Pattern Classification,"Duda, Hart",data_science,241,362
 From Beirut to Jerusalem,"Friedman, Thomas",history,202,363
 "Code Book, The","Singh, Simon",science,197,364
 "Age of the Warrior, The","Fisk, Robert",history,197,365
-Final Crisis,,comic,257,366
-"Killing Joke, The",,comic,283,367
-Flashpoint,,comic,265,368
-Batman Earth One,,comic,265,369
-Crisis on Infinite Earths,,comic,258,370
+Final Crisis,"Garg, Sanjay",comic,257,366
+"Killing Joke, The","Fisk, Robert",comic,283,367
+Flashpoint,"Fisk, Robert",comic,265,368
+Batman Earth One,"Fisk, Robert",comic,265,369
+Crisis on Infinite Earths,"Fisk, Robert",comic,258,370
 "Numbers Behind Numb3rs, The","Devlin, Keith",science,202,371
-Superman Earth One - 1,,comic,259,372
-Superman Earth One - 2,,comic,258,373
-Justice League: Throne of Atlantis,,comic,258,374
-Justice League: The Villain's Journey,,comic,258,375
-"Death of Superman, The",,comic,258,376
-History of the DC Universe,,comic,258,377
-Batman: The Long Halloween,,comic,258,378
+Superman Earth One - 1,"Devlin, Keith",comic,259,372
+Superman Earth One - 2,"Devlin, Keith",comic,258,373
+Justice League: Throne of Atlantis,"Devlin, Keith",comic,258,374
+Justice League: The Villain's Journey,"Devlin, Keith",comic,258,375
+"Death of Superman, The","Devlin, Keith",comic,258,376
+History of the DC Universe,"Devlin, Keith",comic,258,377
+Batman: The Long Halloween,"Devlin, Keith",comic,258,378
 "Life in Letters, A","Steinbeck, John",nonfiction,196,379
 "Information, The","Gleick, James",science,233,380
-"Journal of Economics, vol 106 No 3",,economics,235,381
+"Journal of Economics, vol 106 No 3","Gleick, James",economics,235,381
 Elements of Information Theory,"Thomas, Joy",data_science,229,382
 Power Electronics - Rashid,"Rashid, Muhammad",computer_science,235,383
 Power Electronics - Mohan,"Mohan, Ned",computer_science,237,384
@@ -178,7 +178,7 @@ Think Complexity,"Downey, Allen",data_science,230,403
 "Devil's Advocate, The","West, Morris",fiction,178,404
 Ayn Rand Answers,"Rand, Ayn",philosophy,203,405
 Philosophy: Who Needs It,"Rand, Ayn",philosophy,171,406
-"World's Great Thinkers, The",,philosophy,189,407
+"World's Great Thinkers, The","Rand, Ayn",philosophy,189,407
 Data Analysis with Open Source Tools,"Janert, Phillip",data_science,230,408
 Broca's Brain,"Sagan, Carl",science,174,409
 Men of Mathematics,"Bell, E T",mathematics,217,410
@@ -195,16 +195,16 @@ India's Legal System,Nariman,nonfiction,177,420
 More Tears to Cry,"Sassoon, Jean",fiction,235,421
 "Ropemaker, The","Dickinson, Peter",fiction,196,422
 Angels & Demons,"Brown, Dan",fiction,170,423
-"Judge, The",,fiction,170,424
-"Attorney, The",,fiction,170,425
+"Judge, The","Brown, Dan",fiction,170,424
+"Attorney, The","Brown, Dan",fiction,170,425
 "Prince, The",Machiavelli,philosophy,173,426
 Eyeless in Gaza,"Huxley, Aldous",fiction,180,427
 Tales of Beedle the Bard,"Rowling, J K",fiction,184,428
 Girl with the Dragon Tattoo,"Larsson, Steig",fiction,179,429
 Girl who kicked the Hornet's Nest,"Larsson, Steig",fiction,179,430
 Girl who played with Fire,"Larsson, Steig",fiction,179,431
-Batman Handbook,,comic,270,432
-Murphy's Law,,nonfiction,178,433
+Batman Handbook,"Larsson, Steig",comic,270,432
+Murphy's Law,"Larsson, Steig",nonfiction,178,433
 Structure and Randomness,"Tao, Terence",mathematics,252,434
 Image Processing with MATLAB,"Eddins, Steve",signal_processing,241,435
 Animal Farm,"Orwell, George",fiction,180,436

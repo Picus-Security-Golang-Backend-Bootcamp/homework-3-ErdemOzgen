@@ -18,7 +18,8 @@ func init() {
 	bookRepository = book.NewBookRepository(db)
 	bookRepository.Migration()
 	bookRepository.InsertSampleData()
-
+	er := utils.ReadBOOKWithWorkerPool("books.csv")
+	bookRepository.InsertSampleDataFromSlices(er)
 }
 
 func main() {
@@ -44,4 +45,8 @@ func main() {
 	bookRepository.UpdateBook(book.Book{Name: "Erdem", Author: "Author1", AuthorDescription: "AuthorDescription1", Price: 100, StockAmount: 10}, 1)
 	fmt.Println("===================")
 	bookRepository.DeleteBookByID(1)
+	fmt.Println("===================")
+	// read ReadCsv
+	//er := utils.ReadBOOKWithWorkerPool("books.csv")
+	//utils.PrintPretty(er)
 }
