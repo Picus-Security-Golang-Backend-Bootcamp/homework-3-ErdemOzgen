@@ -20,7 +20,7 @@ JJJJJ#@@@@@@@@@@@@@@@@@&J????G@@@@@@#P?~:.   .:^75B@@@@@@@@@#57~:.   .:~?5#@@@@@
 
 var helpMenu string = `
 Usage:
-  homework-2-ErdemOzgen [command] # if you installed with go install
+  homework-3-ErdemOzgen [command] # if you installed with go install
   go run main.go [command] # if you did not
 
 Available Commands:
