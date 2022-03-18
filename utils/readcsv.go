@@ -2,7 +2,6 @@ package utils
 
 import (
 	"encoding/csv"
-	"fmt"
 	"homework-3-ErdemOzgen/domain/book"
 	"os"
 	"strconv"
@@ -76,7 +75,7 @@ func ReadBOOKWithWorkerPool(path string) []book.Book {
 	}()
 
 	for v := range results {
-		fmt.Println(v)
+		//fmt.Println(v)
 		//bookRepository.InsertBook(v)
 		resultBook = append(resultBook, v)
 	}
