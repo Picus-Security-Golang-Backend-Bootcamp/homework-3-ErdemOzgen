@@ -21,7 +21,7 @@ func init() {
 	IsInitExecuted := utils.CheckInitExecuted("hasinitexecuted.bool")
 	bookRepository = book.NewBookRepository(db)
 	bookRepository.Migration()
-
+	fmt.Println("Change hasinitexecuted.bool to true to avoid running this code again")
 	if !IsInitExecuted {
 		bookRepository.InsertSampleData()
 		er := utils.ReadBOOKWithWorkerPool("books.csv")
