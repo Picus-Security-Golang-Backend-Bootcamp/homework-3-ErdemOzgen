@@ -2,32 +2,18 @@ package main
 
 import (
 	"fmt"
-	"gorm-tut/domain/book"
-	"gorm-tut/domain/city"
-	"gorm-tut/domain/country"
-	"gorm-tut/domain/erdem"
-	"gorm-tut/infrastructure"
-	"gorm-tut/utils"
+	"homework-3-ErdemOzgen/domain/book"
+
+	"homework-3-ErdemOzgen/infrastructure"
+	"homework-3-ErdemOzgen/utils"
 )
 
 var (
-	repository        *city.CityRepository
-	countryRepository *country.CountryRepository
-	erdemRepo         *erdem.ErdemRepository
-	bookRepository    *book.BookRepository
+	bookRepository *book.BookRepository
 )
 
 func init() {
 	db := infrastructure.NewMySQLDB("root:root@tcp(127.0.0.1:3306)/library?parseTime=True&loc=Local")
-	repository = city.NewCityRepository(db)
-	countryRepository = country.NewCountryRepository(db)
-	repository.Migration()
-	repository.InsertSampleData()
-	countryRepository.Migration()
-	countryRepository.InsertSampleData()
-	erdemRepo = erdem.NewErdemRepository(db)
-	erdemRepo.Migration()
-	erdemRepo.InsertSampleData()
 	//====================>
 	bookRepository = book.NewBookRepository(db)
 	bookRepository.Migration()
