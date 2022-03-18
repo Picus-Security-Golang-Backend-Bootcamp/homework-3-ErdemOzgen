@@ -10,7 +10,7 @@ Create new schema with name "library" in the database with Mysql Workbench
 CREATE SCHEMA `library` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
 ```
 #### IF YOU RUN CODE AND DOESNT WANT TO INSERT SAMPLE DATA CHANGE 0 to 1 in hasinitexecuted.bool file
-[file](./hasinitexecuted.bool)
+[hasinitexecuted.bool](./hasinitexecuted.bool)
 
 # How to install ?
 
