@@ -15,7 +15,7 @@ type Model struct {
   DeletedAt gorm.DeletedAt `gorm:"index"`
 }
 */
-
+// Book struct
 type Book struct {
 	gorm.Model
 	Name              string
@@ -26,6 +26,7 @@ type Book struct {
 	//IsDelete          bool
 }
 
+//function runs before delete hook up function
 func (b *Book) BeforeDelete(tx *gorm.DB) (err error) {
 	fmt.Printf("City (%s) deleting...", b.Name)
 	return nil

@@ -10,6 +10,7 @@ import (
 	"gorm.io/gorm/schema"
 )
 
+//Function takes connection string and connection configs
 func NewMySQLDB(conString string) *gorm.DB {
 
 	db, err := gorm.Open(mysql.Open(conString), &gorm.Config{

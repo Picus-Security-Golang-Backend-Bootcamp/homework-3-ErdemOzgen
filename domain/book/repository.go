@@ -7,16 +7,19 @@ import (
 	"gorm.io/gorm"
 )
 
+//Function returns gorm.DB instance
 type BookRepository struct {
 	db *gorm.DB
 }
 
+//functon creates a new BookRepository
 func NewBookRepository(db *gorm.DB) *BookRepository {
 	return &BookRepository{
 		db: db,
 	}
 }
 
+//Gets all books
 func (r *BookRepository) GetAllBooks() ([]Book, error) {
 	var books []Book
 	result := r.db.Find(&books)
@@ -26,6 +29,7 @@ func (r *BookRepository) GetAllBooks() ([]Book, error) {
 	return books, nil
 }
 
+// Gets book by id and returns book and errors
 func (r *BookRepository) GetBookByID(id uint) (Book, error) {
 	var book Book
 	result := r.db.First(&book, id)
@@ -35,6 +39,8 @@ func (r *BookRepository) GetBookByID(id uint) (Book, error) {
 	return book, nil
 }
 
+// Get function by name and returns book
+// TODO: returns slice not only one book
 func (r *BookRepository) GetBookByName(name string) (Book, error) {
 	var book Book
 	result := r.db.Where(Book{Name: name}).Attrs(Book{Name: "NULL"}).FirstOrInit(&book)
@@ -44,6 +50,7 @@ func (r *BookRepository) GetBookByName(name string) (Book, error) {
 	return book, nil
 }
 
+// Try to get book by name and returns book and error if not found it will createed new in DB
 func (r *BookRepository) GetBookByNameOrCreate(name string) (Book, error) {
 	var book Book
 	result := r.db.Where(Book{Name: name}).Attrs(Book{Name: name}).FirstOrCreate(&book)
@@ -53,10 +60,12 @@ func (r *BookRepository) GetBookByNameOrCreate(name string) (Book, error) {
 	return book, nil
 }
 
+//Function for handinling migration
 func (r *BookRepository) Migration() {
 	r.db.AutoMigrate(&Book{})
 }
 
+// function takes book name and returns book and error
 func (r *BookRepository) FindBookByName(name string) (Book, error) {
 	var book Book
 	result := r.db.Where("name LIKE ?", "%"+name+"%").First(&book)
@@ -66,6 +75,7 @@ func (r *BookRepository) FindBookByName(name string) (Book, error) {
 	return book, nil
 }
 
+// Inserts sample data test values
 func (r *BookRepository) InsertSampleData() {
 	book := []Book{
 		{Name: "Book1", Author: "Author1", AuthorDescription: "AuthorDescription1", Price: 100, StockAmount: 10},
@@ -80,12 +90,14 @@ func (r *BookRepository) InsertSampleData() {
 
 }
 
+// inserts sample data from slice
 func (r *BookRepository) InsertSampleDataFromSlices(s []Book) {
 	for _, b := range s {
 		r.db.Create(&b)
 	}
 }
 
+// Updates book from book structs
 func (r *BookRepository) UpdateBook(b Book, id int) error {
 	//r.db.First(&book, id)
 	var book Book
@@ -108,6 +120,7 @@ func (r *BookRepository) UpdateBook(b Book, id int) error {
 	return nil
 }
 
+//Buys book from id and returns  error
 func (r *BookRepository) BuyBookByID(id int, amount int) error {
 	var book Book
 	result := r.db.First(&book, id)
@@ -126,19 +139,11 @@ func (r *BookRepository) BuyBookByID(id int, amount int) error {
 	return nil
 }
 
+//Delete book by IDs and returns error
 func (r *BookRepository) DeleteBookByID(id int) error {
 	var book Book
 	result := r.db.First(&book, id)
-	//find book with id and delete it
-	//result := r.db.First(&book, id).Where(Book{IsDelete: false})
-	//r.db.Raw("Select * from book where id = ?", id).Scan(&book)
-	//fmt.Println("Book deleted =====> ", book)
-	//if book.IsDelete {
-	//	fmt.Println("ALREADY DELETED")
-	//	return nil
-	//}
-	//result := r.db.Unscoped().Where(&Book.{gorm.Model: gorm.Model{ID: id}}).Delete(&book)
-	//result := r.db.First(&book, id)
+
 	if result.Error != nil {
 		log.Println("error: NOT FOUND ALREADY DELETED ", result.Error)
 
@@ -154,31 +159,7 @@ func (r *BookRepository) DeleteBookByID(id int) error {
 
 }
 
-// ADD ISDELETD
-func (r *BookRepository) DeleteBookByID2(id int) error {
-	var book Book
-	result := r.db.Unscoped().Where("ID=?", id).Find(&book)
-	if result.Error != nil {
-		log.Println("error: ", result.Error)
-		return result.Error
-	}
-	fmt.Println("adjsnajdnsanjdnasnkjdnnjk")
-	fmt.Println(book)
-	/*book.IsDelete = true
-	if book.IsDelete {
-		fmt.Println("ALREADY DELETED")
-		return nil
-
-	}*/
-	fmt.Println("Book has been deleted...", book)
-	result = r.db.Delete(&book)
-	if result.Error != nil {
-		log.Println("error: ", result.Error)
-		return result.Error
-	}
-	return nil
-}
-
+//Insert book into database takes book struct
 func (r *BookRepository) InsertBook(book *Book) {
 	r.db.Create(&book)
 }

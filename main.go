@@ -15,6 +15,7 @@ var (
 	bookRepository *book.BookRepository
 )
 
+// Function init create connection and migration also check for init done before
 func init() {
 	db := infrastructure.NewMySQLDB("root:root@tcp(127.0.0.1:3306)/library?parseTime=True&loc=Local")
 	//====================>
@@ -32,6 +33,7 @@ func init() {
 
 func main() {
 	/*
+		EXAMPLES
 		fmt.Println("Get All Book")
 		listedBooks, _ := bookRepository.GetAllBooks()
 		utils.PrintPretty(listedBooks)
@@ -59,6 +61,7 @@ func main() {
 		//er := utils.ReadBOOKWithWorkerPool("books.csv")
 		//utils.PrintPretty(er)
 	*/
+	//Check len of args and prints help
 	if len(os.Args) == 1 {
 		utils.PrintHelp()
 		return
