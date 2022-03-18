@@ -24,12 +24,12 @@ Usage:
   go run main.go [command] # if you did not
 
 Available Commands:
-  buy         For buy books with id takes two arguments id and amount
-  delete  	  For Delete books with id takes one argument id
-  help        Print this help menu
-  list        List all books in the dataset
-  search	  Search for books with author,ISBN,ID takes one argument keyword
-  banner 	  Print the ASCII banner that shows the name of the author,version,date and the command line
+  buy		For buy books with id takes two arguments id and amount
+  delete	For Delete books with id takes one argument id
+  help		Print this help menu
+  list		List all books in the dataset
+  search	Search for books with author,ISBN,ID takes one argument keyword
+  banner 	Print the ASCII banner that shows the name of the author,version,date and the command line
 
 Alternative Commands:
   -h, --help      
